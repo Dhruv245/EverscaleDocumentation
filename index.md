@@ -99,7 +99,7 @@ query GetBlockData{
 
 Copy the query and paste it in your graphQL playground. But this is not it. We need to provide the playground our API key to fetch the data and this is how we will do this.
 
-##Setting API key in playground
+## Setting API key in playground
 
 In your playground you will see this tab in the bottom:
 
@@ -121,7 +121,7 @@ Then simply click on the run button on the playground and you will see the data 
 
 Now let’s see an example with GraphQL Codegen. The GraphQL codegen provides types for our queries so that we can get type safety in our code. To implement this first we need to create a nodeJs project. We will also require installing some dependencies in our project. To create an empty nodeJs project. Follow these steps: 
 
-**Step 1: **
+**Step 1**
 Create a folder at any place of your choice and open it in your code editor. I will use VS code for this. Then open your terminal and write this command: 
 
 ```
@@ -294,6 +294,8 @@ npm run codegen
 
 
 After running this command you should see this on terminal:
+ 
+ 
  ![image](https://user-images.githubusercontent.com/52127829/234950334-07f62ff1-ec45-47ce-ba99-c55057dcc565.png)
 
 
